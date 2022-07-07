@@ -1,0 +1,30 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "hello world smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhonduyen/hello-web3.git"
+  },
+  "keywords": [
+    "web3"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhonduyen/hello-web3/issues"
+  },
+  "homepage": "https://github.com/nhonduyen/hello-web3#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
